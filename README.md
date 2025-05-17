@@ -1,7 +1,7 @@
-Introduction
+Introduction\n
 Cal Poly Humboldt’s admissions department is seeking an interactive and innovative tool that can recommend a suitable major to incoming students. Such a tool could potentially improve admission rates to the college, reduce drop-out rates, minimize switching of majors, and improve overall satisfaction with higher education. 
 My focus in building such a tool is to provide a slightly longer-term satisfaction. For this project I aim to design a major recommender that helps narrow down the best match based on career objectives. Specifically, based on the job roles associated with a major, as well as companies, agencies, or institutions associated with it. This way, the tool helps elucidate the user’s preferred career path. Additionally, it can encourage them to continue on their suggested academic journey, by enlightening them of the career waiting for them after graduating. 
-Methodology
+Methodology\n
 Beginning with Professor Overholser’s code as reference, many changes were made in various stages of the machine learning tool. A comprehensive list, with a brief explanation, of the stages and the changes is as follows:
 1.	Data collection: For a list of occupational roles and companies to work for, I downloaded all the pdf files available on the Career Exploration webpage. This was done using the Python packages selenium and BeautifulSoup. Extensive aid was provided by ChatGPT. The code is linked here. 
 2.	Data processing: Text was extracted from these pdfs and cleaned for further use. The text in the pdfs was unfortunately not in an easily extractable format, therefore plenty of formatting code was needed over and above the basic extraction performed using the PyMuPDF package. A brief description of the cleaning performed is listed below:
